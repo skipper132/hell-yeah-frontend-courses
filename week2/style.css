@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(211, 211, 211);
+  
+}
+
+nav {
+    height: 20px;
+    
+  }
+.li-up {
+    display: inline; /*сделать горизонталь для списка*/
+    margin: 15px; 
+    margin-right: 70px;
+    text-align: center; /*текс по центру*/
+    color: #000;
+    
+ }
+ .ul-up {
+   float: right; /*позиция текста*/
+ }
+.size {
+  width: 100.4%;
+  height: 900px;
+  font-size: 20px;
+  background: no-repeat;
+  background-color: black;
+  border: 1px;
+  margin: 0px;
+}
+a {
+  color:rgba(255, 255, 255, 0.719);
+}
+.logo {
+  margin-left: 10px;
+  margin-top:5px;
+  width: 70px;
+}
+h1 {
+  float: center;
+  color:white;
+  margin-top:250px;
+  margin-left: 200px;
+  text-transform: capitalize;
+   font-family: 'Amatic SC', cursive;
+   text-align: left;
+}
+.p1{
+  float: center;
+  color:white;
+  margin-left: 200px;
+  margin-top:150px;
+  text-align: left;
+  
+}
+.tel {
+  margin-top:-450px;
+  margin-left: 1200px;
+  width:350px;
+}
+button {
+  margin-left:-1250px;
+  margin-bottom: 300px;
+  color: white;
+  padding:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 1px solid white;
+  cursor:pointer;
+  overflow: hidden;
+}
+h2 {
+  margin-top:0px;
+  padding-top: 150px;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  
+
+}
+.p2 {
+  text-align: center;
+  color: black;
+  margin-top:60px;
+  font-size: 1.3em;
+}
+
+
+main {
+  background-color: rgb(211, 211, 211);
+  height: 658px;
+  width: 100.4%;
+}
+.td-h2 {
+  font-size: 1.4em;
+}
+hr{
+  margin-top: 200px;
+  margin-bottom: -1px;
+
+}
+.h3-right
+{
+  float: right;
+  margin-right: 18%;
+  text-align: left;
+  margin-bottom: -10px;
+
+}
+.h3-left {
+  float: left;
+  margin-left: 08%;
+  text-align: left;
+   
+}
+.img1{
+  width: 50%;
+  margin-top: 0px"
+}
+.img2 {
+  width: 50%;
+   float: right;
+}
+footer {
+  float: bottom;
+}
