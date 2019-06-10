@@ -1,0 +1,133 @@
+
+
+header {
+    background-image: url(pic/astro-astronomy-background-956999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spis {
+    display: flex;
+    font-size: 1.4em;
+    color:white;
+    justify-content: flex-end;
+}
+li {
+    margin:30px;
+    color:white;
+}
+a {
+    color:white;
+    text-decoration-line: none;
+}
+.logot {
+    display:flex;
+    flex-grow: 1;
+}
+.unhead {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    color: white;
+    margin-left: 120px;
+    margin-top: 80px;
+    padding-bottom: 70px;
+    line-height: 2em;
+}
+.heimg {
+    width: 50%;
+}
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    padding-bottom: 25px;
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+}
+button {
+    margin-top:20px;
+    color: white;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;
+}
+.gde {
+    text-align: center;
+    margin: 50px;
+    line-height: 2.5em;
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+.kvadrat {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height:10%;
+}
+.kvadr {
+    width: 45%;
+    color:black;
+    
+}
+.kvadrat p:only-of-type {
+    color:black;
+}
+.metka {
+    list-style-type: disc;
+    color: black;
+    size: 2em;
+}
+.spiskart {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.spiskartli {
+    width: 20%;
+}
+hr {
+    width: 5px;
+    color: black;
+    width: 100%;
+}
+.podval {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+    text-align: center;
+    padding-left:30%;
+    padding-right: 30%;
+}
+footer {
+    background-color: black;
+    font-size: 2 em;
+    color: red;
+    text-align: center;
+    padding: 70px;
+}
+.test {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+    text-align: center;
+    padding-left:10%;
+    padding-right: 10%;
+}
+.test figcaption:only-of-type {
+    color: black;
+}
+.gde h2:nth-child(3) {
+    color:red;
+}
