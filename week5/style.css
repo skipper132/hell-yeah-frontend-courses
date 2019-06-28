@@ -127,3 +127,59 @@ a:hover {
     color:white;
     font-size: 20px
 }
+.imgz{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  text-align: center;
+  margin-left: 375px;
+  margin-right: 375px;
+  background-color: white;
+  grid-row-gap:30px;
+  grid-column-gap: 30px;
+}
+.imgz li img {
+  max-width: 270px;
+  max-height: 200px;
+  min-width: 270px;
+  min-height: 270px;
+  object-fit: cover;
+}
+.pzelt {
+  color: #ffe600;
+  margin-top: 30px;
+  text-align: center;
+}
+.vniz {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 115px;
+}
+.back2 {
+  background-image: url(img/back2.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+}
+.back2 h1 {
+  padding-top: 120px;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+.back2 p {
+  color: #ffe600;
+  text-align: center;
+  padding-top: 30px;
+}
+.clients {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 105px;
+  margin-left: 420px;
+  margin-right: 425px;
+  margin-top: 140px;
+  text-align: center;
+}
